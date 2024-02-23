@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 const users = [
     {name: 'Todd', age: 36 },
@@ -18,7 +18,6 @@ const UserSearch: React.FC = () => {
     
         setUser(foundUser)
     };
-
 
     return (
         <div>
